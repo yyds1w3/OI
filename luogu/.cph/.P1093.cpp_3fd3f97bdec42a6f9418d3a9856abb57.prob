@@ -1,0 +1,1 @@
+{"name":"Local: P1093","url":"/home/qingw/OI/luogu/P1093.cpp","tests":[{"id":1763781954663,"input":"8\n80 89 89\n88 98 78\n90 67 80\n87 66 91\n78 89 91\n88 99 77\n67 89 64\n78 89 98","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/qingw/OI/luogu/P1093.cpp","group":"local","local":true}

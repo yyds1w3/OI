@@ -1,0 +1,1 @@
+{"name":"Local: P1358","url":"/home/qingw/OI/normal/P1358.cpp","tests":[{"id":1763177476956,"input":"5 2\n3 1\n","output":""},{"id":1763177477955,"input":"20 19\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/qingw/OI/normal/P1358.cpp","group":"local","local":true}

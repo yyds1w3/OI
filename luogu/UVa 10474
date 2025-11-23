@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int kase = 1;
+    while (cin)
+    {
+        cout << "CASE# " << kase++ << ":" << endl;
+        int n, q, x;
+        cin >> n >> q;
+        vector<int> v1;
+        vector<int> v2;
+        for (int i = 0; i < n; ++i)
+        {
+            int j;
+            cin >> j;
+            v1.emplace_back(j);
+        }
+        for (int i = 0; i < q; ++i)
+        {
+            int j;
+            cin >> j;
+            v2.emplace_back(j);
+        }
+        sort(v1.begin(), v1.end());
+        for (auto it = v2.begin(); it != v2.end(); ++it)
+        {
+            bool found = 0;
+            for (auto itt = v1.begin(); itt != v1.end(); ++itt)
+            {
+                if (*itt == *it)
+                {
+                    cout << *itt << " found at " << itt - v1.begin() + 1 << endl;
+                    found = 1;
+                    break;
+                }
+            }
+            if (found == 0)
+                cout << *it << " not found " << endl;
+        }
+    }
+}
