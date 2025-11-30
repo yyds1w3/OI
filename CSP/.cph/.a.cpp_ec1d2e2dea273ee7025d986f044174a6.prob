@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/home/qingw/OI/CSP/a.cpp","tests":[{"id":1764470804840,"input":"3 2\n10 10\n0 0\n10 -20\n1 -1\n0 0\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/qingw/OI/CSP/a.cpp","group":"local","local":true}

@@ -19,7 +19,7 @@ cin >> a[i] >> b[i];通常会在最后一个卡住的原因是因为 1 3 的3后
 # memset
 ```c++
 #include <cstring>
-
+memset(A, 0, sizeof(A)); // 注意最后一个参数是字节数
 ```
 
 # bitset
@@ -34,5 +34,13 @@ bs[]
 # algorithm
 ```cpp
 next_permutation(a, a+n); // 返回下一个全排列 1 2 3 --> 1 3 2
+fill(a, a+n, value); // 给容器赋值
 
+```
+
+# numeric
+```cpp
+gdc / lcm
+accumulate(begin, end, init_value); // 求和数组
+iota(begin, end, start_value); // 等价a[i] = i
 ```

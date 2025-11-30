@@ -24,6 +24,8 @@
 ### 树中心
 > 以某(1 / 2)个结点出发的最长链最短
 ### 树重心
+- 定义: 删除某节点后, 剩下的子树节点最大值最小
+- 求法: 1. DFS 2. DP
 - [ ] [P1364](../../luogu/P1364.cpp)
 
 
@@ -70,3 +72,23 @@ std : set,multiset,map,multimap(不过是红黑树)
 }
 
 - [x] [P3372](../../luogu/P3372.cpp) 一个模板题目, 用的懒标记
+
+## 树状数组(Binary Indexed Tree)
+```cpp
+lowbit(int x){
+  return x & (-x);
+}
+```
+**单点修改, 快速求区间和**
+- [P3374](../../luogu/P3374.cpp)
+- [P1908](../../luogu/P1908.cpp) 逆序对
+- [P1996](../../luogu/P1996.cpp) 相邻元素交换次数使得正序的次数==逆序对
+
+## LCA(Lowest Common Ancestor)
+- [P3379](../../luogu/P3379.cpp)
+## Tree difference
+### 点差分
+- [P3128](../../luogu/P3128.cpp) 树上任意两点的路径修改, 求值只需要从上至下求差分的前缀和
+
+### 边差分
+- [P3398](../../luogu/P3398.cpp)
