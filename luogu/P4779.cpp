@@ -19,7 +19,7 @@ void bfs_dli(){
     while(!pq.empty()){
         Point curr = pq.top();
         pq.pop();
-        if (curr.w > dist[curr.u]) continue; // 刚取出来的比原来的还大就不要了, 比如第一次存的是5, 后来更新成了3，就要选3的
+        if (curr.w > dist[curr.u]) continue; // 刚取出来的比原来的还大就不要了, 比如第一次存的是5, 后来更新成了3，就要选3的, 一定绕路了就舍弃
         for (auto edge : adj[curr.u]){
             if (dist[curr.u] + edge.w < dist[edge.u]){ // 新路径更小
                 dist[edge.u] = dist[curr.u] + edge.w;

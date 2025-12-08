@@ -40,9 +40,10 @@ $O(N)$
 在模运算里 (12 / 3) mod 7 == (12 * inv(3)) mod 7 == (12 * 5) mod 7
 为什么inv(3) == 5 ? ==> (3 * 3 * 3 * 3 * 3) % 7 == 243 % 7 == 33 % 7 == 5
 ll inv(ll n, ll p){
-    return qpow(n, p-2, p);
+    return qpow(n, p-2, p); // 费马小定理只有在p是质数起作用
 }
 ```
+## exgcd求逆元
 
 ## 组合数取模
 $C_n^m = \frac{n!}{m!(n-m)!}$

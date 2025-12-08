@@ -74,6 +74,7 @@ std : set,multiset,map,multimap(不过是红黑树)
 ### 猫树
 
 - [x] [P3372](../../luogu/P3372.cpp) 一个模板题目, 用的懒标记, 位运算
+- [x] [P3373](../../luogu/P3373.cpp) 加上了乘法标记
 
 ## 树状数组(Binary Indexed Tree)
 ```cpp

@@ -17,6 +17,7 @@ int main() {
                 isprime[j] = false;
         }
     }
+    
     int cnt = 0;
     for (int i = 2; i <= b; ++i)
         if (isprime[i])

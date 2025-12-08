@@ -35,12 +35,29 @@ bs[]
 ```cpp
 next_permutation(a, a+n); // 返回下一个全排列 1 2 3 --> 1 3 2
 fill(a, a+n, value); // 给容器赋值
+binary_search(begin, end, value); // return bool 
+lower_bound(begin, end, value);
+upper_bound(begin, end, value);
+// 去重三连招
+sort(begin, end);
+unique(begin, end);
+v.erase(last, end);
 
+transform(begin, end, target_begin, fun); // 对每个元素运用函数
 ```
 
 # numeric
 ```cpp
 gdc / lcm
-accumulate(begin, end, init_value); // 求和数组
+accumulate(begin, end, 0LL); // 求和数组
 iota(begin, end, start_value); // 等价a[i] = i
+```
+
+# string
+```cpp
+s.substr(pos, len);
+s.find(sub);
+stoi(s); stoll(s);
+to_string(value);
+
 ```
