@@ -28,13 +28,12 @@ struct Math{
         if (d != 1) return -1; // 如果gcd(a,b)!=1 ==>[ab不互质]==>[gcd永远不能==1]
         return (x % b + b) % b;
     }
-};
+}math;
 // ===================end==============================
 int main(){
     IOS;
     ll a, b;
     cin >> a >> b;
-    Math math;
     ll ans = math.modInverse(a, b);
     cout << ans << "\n";
     return 0;

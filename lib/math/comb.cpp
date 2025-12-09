@@ -59,12 +59,11 @@ struct Comb {
         if (i == 0) return 0; // 0没有逆元
         return invFact[i] * fact[i-1] % MOD;
     }
-};
+}comb;
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);
     
-    Comb comb;
     int n, p;
     cin >> n >> p;
     

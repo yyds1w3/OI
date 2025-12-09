@@ -1,0 +1,1 @@
+{"name":"Local: 1360D","url":"/home/qingw/OI/CF/problem/1360D.cpp","tests":[{"id":1765280257024,"input":"5\n8 7\n8 1\n6 10\n999999733 999999732\n999999733 999999733\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/qingw/OI/CF/problem/1360D.cpp","group":"local","local":true}

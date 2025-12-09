@@ -23,12 +23,11 @@ struct Math{
         }
         return res;
     }
-};
+} math;
 // ==================End=================================
 int main() {
     IOS;
     ll a, b, p;
     cin >> a >> b >> p;
-    Math math;
     cout << a << "^" << b << " mod " << p << "=" << math.qpow(a, b, p) << "\n";
 }
